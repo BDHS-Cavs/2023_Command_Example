@@ -39,11 +39,6 @@ class RobotContainer {
   // The robot's subsystems
   DriveSubsystem m_drive;
 
-  frc2::InstantCommand m_driveHalfSpeed{[this] { m_drive.SetMaxOutput(0.5); },
-                                        {}};
-  frc2::InstantCommand m_driveFullSpeed{[this] { m_drive.SetMaxOutput(1); },
-                                        {}};
-
   // The chooser for the autonomous routines
   frc::SendableChooser<frc2::Command*> m_chooser;
 

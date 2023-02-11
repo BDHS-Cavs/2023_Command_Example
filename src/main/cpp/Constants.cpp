@@ -6,12 +6,6 @@
 
 namespace DriveConstants {
 
-const frc::MecanumDriveKinematics kDriveKinematics{
-    frc::Translation2d{kWheelBase / 2, kTrackWidth / 2},
-    frc::Translation2d{kWheelBase / 2, -kTrackWidth / 2},
-    frc::Translation2d{-kWheelBase / 2, kTrackWidth / 2},
-    frc::Translation2d{-kWheelBase / 2, -kTrackWidth / 2}};
-
 }  // namespace DriveConstants
 
 namespace AutoConstants {
